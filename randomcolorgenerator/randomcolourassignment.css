@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#j {
+    font-size: 20vw;
+    color: orange;
+    -webkit-text-stroke: 4px black;
+}
+
+#sp {
+    font-size: 15vw;
+    color: orange;
+    -webkit-text-stroke: 4px black;
+}
+
+button {
+    padding: 30px 70px;
+    font-size: 4vw;
+    border-radius: 10px;
+}
+
+.div1{
+    /* animation: 1s  linear infinite rotate; */
+    animation: rotate 2s linear   infinite ;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
